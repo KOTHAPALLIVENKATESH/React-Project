@@ -1,0 +1,86 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-image: url("../assets/backgroundbanner.jpg");
+  height: 150px;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo-img {
+  margin-right: 8px;
+  height: 120px;
+  width: 100px;
+}
+
+.logo-text {
+  color: white
+}
+
+
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 90px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: #4e73df;
+}
+
+/* Buttons */
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.signin {
+  background: transparent;
+  border: 1px solid #4e73df;
+  padding: 6px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signin:hover {
+  background: #4e73df;
+  color: white;
+}
+
+.signup {
+  background: #4e73df;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup:hover {
+  background: #2e59d9;
+}
