@@ -8,6 +8,8 @@ import HotelBooking from './components/HotelBooking';
 
 import '../src/components/Travel.css'
 import '../src/components/hotelbook.css'
+import GuideBooking from './components/TripGuideBooking';
+import TripGuideBooking from './components/TripGuideBooking';
 
 
 
@@ -29,6 +31,7 @@ function App() {
 
       <BookingCard />
       <HotelBooking />
+      <TripGuideBooking/>
     
      
      
